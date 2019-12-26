@@ -16,3 +16,4 @@ main(){
   openssl req -new -key ./server/private/server.key -out ./server/request/server.csr -config ./server/conf/server.conf
   openssl ca -in ./server/request/server.csr -out ./server/server.crt -days 3650 -extensions x509_ext -extfile ./server/conf/server.conf
 }
+main
