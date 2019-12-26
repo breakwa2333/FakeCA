@@ -1,0 +1,50 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=CN, ST=Shanghai, L=Shanghai, O=SuperSocket, OU=GlobalSign Root CA - R3, CN=GlobalSign
+        Validity
+            Not Before: Dec 26 13:26:16 2019 GMT
+            Not After : Dec 23 13:26:16 2029 GMT
+        Subject: C=CN, ST=Shanghai, O=SuperSocket, CN=192.168.3.2
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:2d:a8:5f:5b:bd:00:58:35:bd:af:68:47:7f:bc:
+                    b1:d1:74:fc:76:d0:80:06:78:e6:91:1e:43:81:98:
+                    b1:a2:3c:d9:03:6d:2e:ac:7a:d6:c9:78:6b:4e:ff:
+                    d6:35:f9:03:ef:e0:da:d1:9c:0a:1a:38:ba:dc:81:
+                    46:99:ac:7a:85
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                82:B9:52:4B:9F:3E:0B:55:E3:DF:D5:E1:B7:C9:D9:EC:51:07:EF:4E
+            X509v3 Authority Key Identifier: 
+                keyid:47:2C:2D:75:1F:89:A7:70:68:13:68:DA:6F:84:FC:4F:1F:C0:62:87
+
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+    Signature Algorithm: ecdsa-with-SHA256
+         30:45:02:20:73:ce:45:f2:bf:61:9f:9b:3d:89:76:d1:2c:35:
+         5a:13:51:0b:27:51:38:62:87:6c:cb:ee:82:57:a3:5b:53:75:
+         02:21:00:9b:61:cf:1d:34:3a:9d:64:b0:19:87:6a:36:e2:a2:
+         f6:86:bc:4c:29:5e:32:00:06:96:fc:a9:69:eb:e8:bf:61
+-----BEGIN CERTIFICATE-----
+MIICFjCCAbygAwIBAgIBAjAKBggqhkjOPQQDAjCBgDELMAkGA1UEBhMCQ04xETAP
+BgNVBAgTCFNoYW5naGFpMREwDwYDVQQHEwhTaGFuZ2hhaTEUMBIGA1UEChMLU3Vw
+ZXJTb2NrZXQxIDAeBgNVBAsTF0dsb2JhbFNpZ24gUm9vdCBDQSAtIFIzMRMwEQYD
+VQQDEwpHbG9iYWxTaWduMB4XDTE5MTIyNjEzMjYxNloXDTI5MTIyMzEzMjYxNlow
+TDELMAkGA1UEBhMCQ04xETAPBgNVBAgTCFNoYW5naGFpMRQwEgYDVQQKEwtTdXBl
+clNvY2tldDEUMBIGA1UEAxMLMTkyLjE2OC4zLjIwWTATBgcqhkjOPQIBBggqhkjO
+PQMBBwNCAAQtqF9bvQBYNb2vaEd/vLHRdPx20IAGeOaRHkOBmLGiPNkDbS6setbJ
+eGtO/9Y1+QPv4NrRnAoaOLrcgUaZrHqFo1owWDAdBgNVHQ4EFgQUgrlSS58+C1Xj
+39Xht8nZ7FEH704wHwYDVR0jBBgwFoAURywtdR+Jp3BoE2jab4T8Tx/AYocwCQYD
+VR0TBAIwADALBgNVHQ8EBAMCBaAwCgYIKoZIzj0EAwIDSAAwRQIgc85F8r9hn5s9
+iXbRLDVaE1ELJ1E4Yodsy+6CV6NbU3UCIQCbYc8dNDqdZLAZh2o24qL2hrxMKV4y
+AAaW/Klp6+i/YQ==
+-----END CERTIFICATE-----
