@@ -11,6 +11,8 @@ main(){
   echo 01 > ./demoCA/serial
   wget -O ./demoCA/conf/ca.conf https://raw.githubusercontent.com/breakwa2333/FakeCA/master/ca.conf
   wget -O ./server/conf/server.conf https://raw.githubusercontent.com/breakwa2333/FakeCA/master/server.conf
+  local_ip=`curl -4 ip.sb`
+  echo "IP.1 = $local_ip" > ./server/conf/server.conf
   openssl ecparam -genkey -name prime256v1 -out ./demoCA/private/cakey.pem
   openssl ecparam -genkey -name prime256v1 -out ./server/private/server.key
 }
