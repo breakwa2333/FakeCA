@@ -6,6 +6,7 @@ main(){
   mkdir -p ./demoCA/{private,newcerts,conf}
   mkdir -p ./server/{private,request,conf}
   touch ./demoCA/index.txt
+  touch ./demoCA/index.txt.attr
   touch ./demoCA/serial
   echo 01 > ./demoCA/serial
   wget -O ./demoCA/conf/ca.conf https://raw.githubusercontent.com/breakwa2333/FakeCA/master/ca.conf
