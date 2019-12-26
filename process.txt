@@ -1,0 +1,2 @@
+openssl ecparam -genkey -name prime256v1 -out ca.key
+req -new -x509 -days 3650 -key ca.key -out ca.crt -config ca.conf
