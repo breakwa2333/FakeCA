@@ -30,5 +30,6 @@ rm -r ./server
 ```
 更改所有者命令
 ```
-chown -R ubuntu ./demoCA/cacert.pem
+chown -R ubuntu ./demoCA
+chown -R ubuntu ./server
 ```
